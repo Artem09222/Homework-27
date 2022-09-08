@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.page {
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.page-left {
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+    background-image: url('./img/icon.\ photo.jpg');
+    background-position: center;
+}
+
+.icon-page-left {
+    margin: 30px 30px;
+}
+
+.page-right {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-info-container {
+    padding-left: 70px;
+}
+
+.page-title {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.page-subtitle {
+    color: gray;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.page-price {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.page-text {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.page-information {
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.page-button {
+    text-decoration: none;
+    color: white;
+    background-color: gold;
+    width: 200px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 70px;
+}
